@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: serif;
+}
+p {
+  margin-bottom: 20px;
+}
+article {
+  border: 5px solid black;
+  font-family: sans-serif;
+  font-weight: 200;
+}
+.shipping,
+h2 {
+  background-color: rgb(240, 240, 240);
+  text-transform: uppercase;
+}
+.shipping {
+  font-size: 10px;
+}
+h2 {
+  text-align: center;
+}
+.price {
+  font-size: 20px;
+  font-weight: bolder;
+}
+li {
+  list-style: square;
+}
+.details-title {
+  text-transform: uppercase;
+}
+a:link {
+  color: black;
+}
+a:hover {
+  text-decoration: none;
+}
+.add-cart {
+  background-color: black;
+  color: white;
+  height: 30px;
+  width: 110px;
+  text-transform: uppercase;
+  width: 100%;
+  padding: 20px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.add-cart:hover {
+  background-color: white;
+  color: black;
+}
+article {
+  margin-top: 50px;
+  width: 900px;
+  border: 5px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+article::after {
+  position: absolute;
+  content: "SALE";
+  color: white;
+  background-color: red;
+  border: 2px solid orangered;
+  top: -15px;
+  left: -25px;
+  width: 50px;
+  padding-top: 5px;
+  padding-left: 5px;
+  height: 25px;
+}
+.product-title {
+  padding: 10px;
+}
+/* .main-image {
+  margin-bottom: 10px;
+} */
+.price {
+  margin-bottom: 5px;
+  float: left;
+}
+.shipping {
+  margin-bottom: 20px;
+  float: right;
+}
+.p-details {
+  /* margin-top: 40px; */
+  clear: both;
+  line-height: 1.5;
+}
+
+.more-info {
+  display: block;
+  margin-bottom: 20px;
+}
+.details-title {
+  /* margin-top: 20px; */
+  margin-bottom: 20px;
+}
+.details-list {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+li {
+  margin-bottom: 10px;
+}
+.red,
+.green,
+.blue,
+.yellow,
+.violet {
+  height: 15px;
+  width: 15px;
+  display: inline-block;
+  margin-left: 10px;
+}
+.parent-color > div:first-child {
+  margin-left: 0;
+}
+.red {
+  background-color: red;
+}
+.green {
+  background-color: green;
+}
+.blue {
+  background-color: blue;
+}
+.yellow {
+  background-color: yellow;
+}
+.violet {
+  background-color: violet;
+}
+/*
+.main-image {
+  float: left;
+  width: 250px;
+
+  margin-right: 40px;
+  /* background-color: red; */
+/*
+}
+.price-shipping,
+.details {
+  margin-top: 10px;
+}
+.price-shipping {
+  float: left;
+  width: 280px;
+  margin-right: 40px;
+
+  /* background-color: green; */
+/*
+}
+.details {
+  float: left;
+  width: 280px;
+  /* background-color: blue; */
+/*
+}*/
+
+/* 2))using flexbox
+ */
+
+/* .product-discription {
+  display: flex;
+  gap: 40px;
+}
+.main-image {
+  flex-basis: 250px;
+  flex-shrink: 0;
+}
+.price-shipping {
+  flex-basis: auto;
+}
+.details {
+  flex-basis: auto;
+} */
+
+/* 3)using css grid  */
+

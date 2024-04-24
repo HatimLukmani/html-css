@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      body {
+        height: 100vh;
+        display: grid;
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+        grid-template-columns: 80px 400px 1fr 250px;
+        grid-template-rows: 80px 1fr;
+      }
+      * {
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+      }
+      nav {
+        background-color: black;
+        color: white;
+        grid-row: 1/-1;
+      }
+      menu {
+        background-color: blue;
+        grid-column: 2/-1;
+      }
+      section {
+        background-color: blueviolet;
+      }
+      main {
+        background-color: brown;
+      }
+      aside {
+        background-color: tomato;
+      }
+      .btn {
+        color: white;
+        background-color: darkblue;
+        padding: 10px 15px;
+      }
+      menu {
+        display: flex;
+        align-items: center;
+        /* justify-content: center; */
+        gap: 15px;
+        padding-left: 15px;
+        /* position: relative; */
+      }
+      button:last-child {
+        background-color: red;
+        color: white;
+        /* position: absolute; */
+        /* right: 10px; */
+        margin-left: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>Nav</nav>
+    <menu>
+      <button class="btn">New</button>
+      <button class="btn">Reply</button>
+      <button class="btn">Forward</button>
+      <button class="btn">Mark Unread</button>
+      <button class="btn">Trash</button>
+    </menu>
+    <section>
+        <div class="email">Email 1</div>
+        <div class="email">Email 2</div>
+        <div class="email">Email 3 </div>
+        <div class="email"></div>
+        <div class="email"></div>
+        <div class="email"></div>
+        <div class="email"></div>
+        <div class="email"></div>
+        <div class="email"></div>
+        <div class="email"></div>
+        <div class="email"></div>
+        <div class="email"></div>
+        <div class="email"></div>
+
+    </section>
+    <main></main>
+    <aside></aside>
+  </body>
+</html>

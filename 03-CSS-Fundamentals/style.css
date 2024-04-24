@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* body {
+  position: relative;
+} */
+h1 {
+  font-size: 26px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  color: blue;
+  font-style: italic;
+  padding: 20px 25px;
+}
+h2 {
+  font-size: 40px;
+  font-family: sans-serif;
+  margin-bottom: 10px;
+
+  position: relative;
+}
+h2::after {
+  content: "TOP";
+  color: black;
+  display: inline-block;
+  position: absolute;
+  right: 10px;
+  top: -15px;
+  margin-left: 20px;
+  background-color: yellow;
+  font-size: 20px;
+}
+h3 {
+  font-size: 30px;
+  font-family: sans-serif;
+  margin-bottom: 10px;
+}
+ul,
+ol {
+  margin-left: 25px;
+}
+
+h4 {
+  font-size: 20px;
+  font-family: sans-serif;
+  text-transform: capitalize;
+  text-align: center;
+}
+p {
+  font-family: sans-serif;
+  line-height: 1.5;
+  font-size: 22px;
+  margin: 10px;
+}
+li {
+  font-family: sans-serif;
+  font-size: 20px;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+li:last-child {
+  margin-bottom: 0px;
+}
+#copyright {
+  font-size: 12px;
+}
+#author {
+  font-weight: bolder;
+}
+.releated-post {
+  font-size: 20px;
+  font-family: sans-serif;
+  color: blueviolet;
+}
+aside {
+  background-color: rgb(189, 191, 194);
+  border-top: 5px solid red;
+  border-bottom: 5px solid red;
+  padding: 15px 0px;
+  width: 50%;
+}
+li:first-child {
+  color: red;
+}
+li:last-child {
+  color: green;
+}
+li:nth-child(odd) {
+  color: orange;
+}
+li:nth-child(even) {
+  color: green;
+}
+a {
+  color: blue;
+  text-decoration: none;
+}
+a:visited {
+  color: blue;
+}
+a:hover {
+  color: orangered;
+  text-decoration: underline solid green;
+}
+a:active {
+  color: white;
+  background-color: black;
+}
+.top-header {
+  background-color: #eee9e9;
+  margin-bottom: 25px;
+  height: 100px;
+}
+.post-header {
+  margin: 20px auto;
+}
+.post-image {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+.container {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+nav a:link {
+  /* background-color: red; */
+  margin: 10px;
+  display: inline-block;
+  /* padding: 20px; */
+  padding-top: 30px;
+
+  /* width: 50px; */
+  /* display: inline; */
+}
+.heart-button {
+  position: absolute;
+  color: white;
+  background-color: black;
+  height: 50px;
+  width: 50px;
+  font-size: 20px;
+  bottom: 0px;
+  right: 0px;
+}
+.author-image {
+  float: left;
+}
+.author {
+  float: left;
+  margin: 0px;
+  margin-left: 10px;
+}
+h1 {
+  float: left;
+}
+nav {
+  float: right;
+}
